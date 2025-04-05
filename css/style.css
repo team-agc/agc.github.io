@@ -4413,6 +4413,11 @@ input[type="button"].btn-block {
   color: rgba(0, 0, 0, 0.9);
 }
 
+@media (max-width: 576px) {
+    .navbar-brand span {
+        font-size: 14px;
+    }
+
 .navbar-dark .navbar-brand {
   color: #fff;
 }
